@@ -7,7 +7,6 @@ interface Task {
   description: string;
   status: "To Do" | "In Progress" | "Done";
 }
-
 const TASKS_KEY = "tasks";
 
 const App: React.FC = () => {
